@@ -5,13 +5,13 @@ export WANDB_ENTITY=
 export WANDB_PROJECT=
 
 # Activate the environment
-source activate verifier_env
+# source /home/jhna/uv_venvs/mtrl/bin/activate
 
 # Default values for command-line arguments
-MODEL_NAME=${1:-"Qwen/Qwen2.5-7B"}
+MODEL_NAME=${1:-"Qwen/Qwen2.5-3B-Coder-Instruct"}
 LEARNING_RATE=${2:-"1e-6"}
-NUM_GENERATIONS=${3:-"21"}
-PER_DEVICE_TRAIN_BATCH_SIZE=${4:-"12"}
+NUM_GENERATIONS=${3:-"8"}
+PER_DEVICE_TRAIN_BATCH_SIZE=${4:-"8"}
 GRAD_ACCUM_STEPS=${5:-"4"}
 NUM_ITERATIONS=${6:-"2"}
 MAX_STEPS=${7:-"300"}
