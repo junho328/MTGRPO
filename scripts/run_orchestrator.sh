@@ -1,6 +1,5 @@
 #!/bin/bash
 
-export WANDB_API_KEY="4f27a301fcc24e0267973277fc29e90b1c78064b"
 export WANDB_ENTITY="lamas-aipr"
 export WANDB_PROJECT="orchestrator-grpo"
 
